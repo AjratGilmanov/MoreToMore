@@ -1,5 +1,5 @@
 from django.urls import path
-from hello import views
+from MoreToMoreApp import views
  
 urlpatterns = [
     path("", views.index),
